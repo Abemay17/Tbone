@@ -9,26 +9,12 @@ html, body, .Component2 {
     height: 100%;
 }
 
-/* Responsive font size for smaller screens */
-.Burger, .PizZa, .RaMen {
-    width: 100%;
-    max-width: 1184px; /* Adjust as needed */
-    margin: 0 auto; /* Center the content */
-    font-size: 200px; /* Adjust the font size as needed */
-}
-
-@media (max-width: 600px) {
-    .Burger, .PizZa, .RaMen {
-        font-size: 150px; /* Adjust the font size for smaller screens */
-    }
-}
-
 .Frame1, .Frame2, .Frame3 {
     box-sizing: border-box; /* Include padding in the element's total width and height */
     padding: 10vh; /* Adjust as needed */
-    justify-content: center; /* Center content vertically */
+    display: flex;
+    justify-content: space-between; /* Distribute content with space between */
     align-items: center;
-    display: inline-flex;
     width: 100%;
 }
 
@@ -45,13 +31,6 @@ html, body, .Component2 {
 .Frame3 {
     background: #82A8E1;
     height: 100vh;
-}
-
-.Burger, .PizZa, .RaMen {
-    color: white;
-    font-family: Inter;
-    font-weight: 400;
-    word-wrap: break-word;
 }
 
 /* Add this to style the navigation menu */
@@ -78,4 +57,32 @@ html, body, .Component2 {
 /* Add this to adjust the spacing */
 .Component2 {
     margin-top: 0; /* Adjust as needed */
+}
+
+/* Add this to style the image */
+.Icon {
+    width: 700px; /* Adjust as needed for the image size */
+}
+
+/* Responsive font size for smaller screens */
+.Burger, .PizZa, .RaMen {
+    width: 100%;
+    max-width: 60%; /* Adjust as needed */
+    font-size: 200px; /* Adjust the font size as needed */
+}
+
+@media (max-width: 600px) {
+    .Burger, .PizZa, .RaMen {
+        font-size: 150px; /* Adjust the font size for smaller screens */
+    }
+}
+
+
+/* Add this to style the text and image containers */
+.TextContainer, .ImageContainer {
+    flex: 1; /* Distribute available space equally */
+}
+
+.ImageContainer {
+    text-align: right; /* Align image to the right */
 }
