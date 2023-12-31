@@ -1,42 +1,81 @@
-/* Add your CSS styles here */
-.Component2 {
-    width: 1365px;
-    height: 2757px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    display: inline-flex;
+/* Reset margin and padding for the body and html */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Add this to make sure the Component2 takes full height */
+html, body, .Component2 {
+    height: 100%;
+}
+
+/* Responsive font size for smaller screens */
+.Burger, .PizZa, .RaMen {
+    width: 100%;
+    max-width: 1184px; /* Adjust as needed */
+    margin: 0 auto; /* Center the content */
+    font-size: 200px; /* Adjust the font size as needed */
+}
+
+@media (max-width: 600px) {
+    .Burger, .PizZa, .RaMen {
+        font-size: 150px; /* Adjust the font size for smaller screens */
+    }
 }
 
 .Frame1, .Frame2, .Frame3 {
-    padding-top: 82px;
-    padding-bottom: 132px;
-    padding-left: 77px;
-    padding-right: 104px;
-    justify-content: flex-start;
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+    padding: 10vh; /* Adjust as needed */
+    justify-content: center; /* Center content vertically */
     align-items: center;
     display: inline-flex;
-    width: 100%; /* Adjust as needed */
+    width: 100%;
 }
 
 .Frame1 {
     background: #CB4A4A;
+    height: 100vh; /* Take up the full height of the viewport */
 }
 
 .Frame2 {
     background: #A3A566;
+    height: 100vh;
 }
 
 .Frame3 {
     background: #82A8E1;
+    height: 100vh;
 }
 
 .Burger, .PizZa, .RaMen {
-    width: 1184px;
-    height: 705px;
     color: white;
-    font-size: 300px;
     font-family: Inter;
     font-weight: 400;
     word-wrap: break-word;
+}
+
+/* Add this to style the navigation menu */
+.Navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff; /* Adjust as needed */
+    padding: 10px;
+    z-index: 1000;
+}
+
+.Navigation a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333; /* Adjust as needed */
+    font-weight: bold;
+}
+
+.Navigation a:hover {
+    color: #CB4A4A; /* Adjust as needed */
+}
+
+/* Add this to adjust the spacing */
+.Component2 {
+    margin-top: 0; /* Adjust as needed */
 }
