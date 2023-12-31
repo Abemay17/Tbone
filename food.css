@@ -1,0 +1,42 @@
+/* Add your CSS styles here */
+.Component2 {
+    width: 1365px;
+    height: 2757px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    display: inline-flex;
+}
+
+.Frame1, .Frame2, .Frame3 {
+    padding-top: 82px;
+    padding-bottom: 132px;
+    padding-left: 77px;
+    padding-right: 104px;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+    width: 100%; /* Adjust as needed */
+}
+
+.Frame1 {
+    background: #CB4A4A;
+}
+
+.Frame2 {
+    background: #A3A566;
+}
+
+.Frame3 {
+    background: #82A8E1;
+}
+
+.Burger, .PizZa, .RaMen {
+    width: 1184px;
+    height: 705px;
+    color: white;
+    font-size: 300px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
