@@ -1,0 +1,131 @@
+body {
+  overflow: hidden; /* Disable vertical scrolling */
+}
+
+.container {
+  width: 5011px;
+  height: 2931px;
+  position: relative;
+}
+
+.background {
+  width: 6000px;
+  height: 2983px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: salmon;
+}
+
+.co-op-type {
+  width: 4264px;
+  height: 400px;
+  left: 374px;
+  top: 223px;
+  position: absolute;
+  text-align: center;
+  color: black;
+  font-size: 300px;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.rotate-border {
+  width: 2101px;
+  height: 0px;
+  left: 2506px;
+  top: 830px;
+  position: absolute;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+  border: 13px black solid;
+}
+
+.player {
+  width: 473px;
+  height: 134px;
+  position: absolute;
+  text-align: center;
+  color: black;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.line {
+  width: 473px; /* Adjust as needed */
+  height: 5px; /* Adjust as needed */
+  background-color: black;
+  position: absolute;
+}
+
+.player1 {
+  left: 57px;
+  top: 696px;
+  font-size: 111px;
+}
+
+.player2 {
+  left: 2574px;
+  top: 696px;
+  font-size: 111px;
+}
+
+.timer {
+  left: 58px;
+  top: 1027px;
+  font-size: 120px;
+}
+
+.keyboard {
+  width: 2013px;
+  height: 654px;
+  position: absolute;
+  text-align: center;
+  color: black;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.keyboard1 {
+  left: 295px;
+  top: 2136px;
+  font-size: 300px;
+}
+
+.keyboard2 {
+  left: 2764px;
+  top: 2136px;
+  font-size: 300px;
+}
+
+.generator {
+  width: 2013px;
+  height: 654px;
+  position: absolute;
+  text-align: center;
+  color: black;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.generator1 {
+  left: 247px;
+  top: 1482px;
+  font-size: 220px;
+}
+
+.generator2 {
+  left: 2902px;
+  top: 1482px;
+  font-size: 220px;
+}
+
+.timer2 {
+  left: 2624px;
+  top: 1009px;
+  font-size: 120px;
+}
