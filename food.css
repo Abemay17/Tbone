@@ -86,3 +86,13 @@ html, body, .Component2 {
 .ImageContainer {
     text-align: right; /* Align image to the right */
 }
+/* Add this to style the image */
+.Icon {
+    width: 700px; /* Adjust as needed for the image size */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+/* Add this to create the floating effect on hover */
+.Icon:hover {
+    transform: translateY(-10px); /* Adjust the distance of the float */
+}
